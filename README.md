@@ -226,9 +226,6 @@ Instead, Python sends a high-level command through MAVLink, and ArduPilot handle
 * Monitoring movement using telemetry
 * The relationship between a desired position and the actual UAV position
 
-### Demonstration
-
-![Stage 3 - Flight Control](assets/stage3.png)
 
 ---
 
@@ -251,26 +248,12 @@ Start
        Move right
 ```
 
-The project will gradually develop this into more advanced behaviour, including:
-
-* L-shaped movement
-* 90° yaw rotation
-* Body-relative movement
-* Return-to-start
-* Autonomous landing
-* Complete autonomous missions
-
-### What I am learning
+### What I am learned
 
 * Autonomous movement
 * UAV coordinate systems
 * `LOCAL_NED`
 * Position targets
-* Yaw control
-* Body-relative movement
-* Waypoint-style navigation
-* Combining commands with telemetry feedback
-* Basic autonomous mission design
 
 ### Demonstration
 
@@ -413,11 +396,10 @@ Companion Computer
 
 A real drone would also have physical sensors such as:
 
-* IMU
 * GPS
 * Barometer
 * Compass
-* Other sensors depending on the UAV
+* Other sensors 
 
 The flight controller uses this information to estimate the vehicle's state and control the aircraft.
 
@@ -481,6 +463,14 @@ Learning by changing commands, observing the vehicle's behaviour, checking telem
 | Ubuntu          | Linux development environment    |
 
 ---
+## Learning Approach
+
+This project was developed as a hands-on learning exercise. I used online
+tutorials, YouTube resources, official documentation, and AI-assisted
+guidance to understand MAVLink, ArduPilot, SITL, pymavlink, and UAV control.
+Rather than only following tutorials, I implemented each stage, tested it in
+simulation, investigated errors, and gradually built an understanding of how
+the software components communicate with each other.
 
 # 🚀 Future Development
 
@@ -512,16 +502,6 @@ This project is being developed primarily as a **learning project**.
 The goal is to build a practical understanding of:
 
 **MAVLink → ArduPilot → UAV control → telemetry → autonomous navigation**
-
-before moving toward more advanced areas such as:
-
-* UAV autonomy
-* Computer vision
-* Sensor fusion
-* ROS 2
-* Path planning
-* Embedded systems
-* Real-world UAV systems
 
 Rather than starting with a complicated autonomous drone system, I am building the knowledge step by step and documenting each stage along the way.
 
