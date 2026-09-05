@@ -379,7 +379,7 @@ Simulated UAV
 
 ```text
 Companion Computer
-(Raspberry Pi / Jetson / etc.)
+(like Raspberry Pi)
           │
         MAVLink
           │
@@ -442,10 +442,6 @@ Learning how multiple movement commands can be combined into an autonomous traje
 
 Learning how SITL can be used to test UAV software before moving to physical hardware.
 
-### 8. Debugging and Experimentation
-
-Learning by changing commands, observing the vehicle's behaviour, checking telemetry, and understanding why the vehicle responds in a particular way.
-
 ---
 
 # 🛠️ Technologies Used
@@ -487,13 +483,7 @@ Planned improvements include:
 * [ ] Create an autonomous L-shaped trajectory
 * [ ] Return to the starting position
 * [ ] Create a square trajectory
-* [ ] Add better flight-state checking
-* [ ] Add error handling
-* [ ] Explore waypoint-based missions
-* [ ] Explore computer vision integration
-* [ ] Explore ROS 2 integration
-* [ ] Eventually test concepts with physical UAV hardware
-
+...
 ---
 
 # 🎯 Purpose of the Project
@@ -507,23 +497,3 @@ The goal is to build a practical understanding of:
 Rather than starting with a complicated autonomous drone system, I am building the knowledge step by step and documenting each stage along the way.
 
 ---
-
-## 📌 Current Status
-
-**Project Status: In Progress 🚧**
-
-Current progress includes:
-
-* ✅ ArduPilot SITL setup
-* ✅ MAVProxy setup
-* ✅ Mission Planner connection
-* ✅ Python-MAVLink connection
-* ✅ Heartbeat detection
-* ✅ Telemetry reading
-* ✅ Position monitoring
-* ✅ Guided position control
-* ✅ Simulated UAV movement
-* 🚧 Autonomous L-shaped navigation
-* ⏳ Yaw-based navigation
-* ⏳ Return-to-start
-* ⏳ Complete autonomous mission
