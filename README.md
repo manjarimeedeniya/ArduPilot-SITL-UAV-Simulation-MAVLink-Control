@@ -258,8 +258,8 @@ Start
 
 ### Demonstration
 
-![Stage 4 - Demo](assets/stage4.mp4)
-
+![Stage 4 - Demo](assets/stage4.png)
+[▶ Watch the full Stage 4 demonstration](assets/stage4-demo.mp4)
 ---
 
 # 🧭 Understanding the Coordinate System
