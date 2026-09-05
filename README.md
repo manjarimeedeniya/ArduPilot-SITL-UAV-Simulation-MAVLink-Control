@@ -226,7 +226,8 @@ Instead, Python sends a high-level command through MAVLink, and ArduPilot handle
 * Monitoring movement using telemetry
 * The relationship between a desired position and the actual UAV position
 
-
+![Stage 3 - Takeoff](assets/stage3_takeoff.png)
+![Stage 3 - Move](assets/stage3_move.png)
 ---
 
 ## Stage 4 — Autonomous Navigation
