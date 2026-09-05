@@ -274,7 +274,7 @@ The project will gradually develop this into more advanced behaviour, including:
 
 ### Demonstration
 
-![Stage 4 - Demo](assets/stage4-demo.mp4)
+![Stage 4 - Demo](assets/stage4.mp4)
 
 ---
 
