@@ -257,8 +257,8 @@ Start
 * Position targets
 
 ### Demonstration
-![Stage 4 - Demo](assets/stage4.png)
-![Stage 4 - Demo](assets/stage4demo.mp4)
+![Stage 4 - Demo](assets/stage4.png) 
+[▶ Watch the full Stage 4 demonstration(Google Drive Link] https://drive.google.com/drive/folders/1-9VOnyF1I6tfyFyLfSeA3WrLtvKgwdIq?usp=sharing
 [▶ Watch the full Stage 4 demonstration](assets/stage4demo.mp4)
 ---
 
